@@ -7,7 +7,7 @@ import s from "./App.module.css";
 function App() {
   return (
     <Container>
-      <h1 className={s.title}>Phonebook</h1>
+      <h1 className={s.titlePhone}>Phonebook</h1>
       <Form />
       <Filter />
       <h2 className={s.contactTitle}>Contacts</h2>
